@@ -1,1 +1,39 @@
 
+---
+
+## ✅ `backend/README.md`
+
+```markdown
+# 🔧 Backend - AffordMed API
+
+This is the **backend** for the AffordMed assignment. It is built with **Node.js** and **Express.js**, providing RESTful API endpoints to serve the frontend.
+
+---
+
+## 📂 Project Structure
+
+backend/
+├── controllers/
+├── middleware/
+│ ├── logger.js
+│ └── errorHandler.js
+├── routes/
+├── server.js
+├── package.json
+└── README.md
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+
+```bash
+cd backend
+npm install
+npm start
+Server runs at: http://localhost:5000
