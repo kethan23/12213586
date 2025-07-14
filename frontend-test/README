@@ -1,1 +1,25 @@
+# 🖼️ Frontend - AffordMed Application
+
+This is the **frontend** part of the AffordMed application, built using **React.js**. It interacts with the backend APIs to provide a user interface for patients or admins to access services.
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+cd frontend
+npm install
+npm start
 
