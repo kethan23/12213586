@@ -1,1 +1,39 @@
 
+
+---
+
+## ✅ `backend/middleware/README.md`
+
+```markdown
+# ⚙️ Middleware - AffordMed API
+
+This folder contains **custom Express middleware** functions to enhance the backend's functionality.
+
+---
+
+## 📁 Files
+
+- `logger.js` – Logs HTTP method, path, and timestamp
+- `errorHandler.js` – Catches and handles uncaught server errors
+
+---
+
+## 📝 logger.js
+
+Logs each incoming HTTP request:
+
+### Sample Log Output
+
+
+### Usage in `server.js`
+
+```js
+const logger = require('./middleware/logger');
+app.use(logger);
+[ERROR] 500 - Internal Server Error: Cannot read properties of undefined
+const errorHandler = require('./middleware/errorHandler');
+app.use(errorHandler);
+
+---
+
+Would you like all of these as downloadable `.md` files in a `.zip` or GitHub-ready repo structure?
